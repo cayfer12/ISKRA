@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T12:50:53.912Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="wl0aDGO3q1XAyKMMVdak" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:03:39.728Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="FSLuohtTI3xJD2_V9a6d" version="15.2.7" type="github">
   <diagram id="ZIN-xYuzpI-XV8i7ytl3" name="Page-1">
     <mxGraphModel dx="1673" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -501,25 +501,52 @@
           <mxGeometry x="690" y="1140" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-361" value="FRONT" style="swimlane;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="2120" width="240" height="200" as="geometry" />
+          <mxGeometry x="260" y="1940" width="980" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-362" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr style=&quot;background-color:#A7C942;color:#ffffff;border:1px solid #98bf21;&quot;&gt;&lt;th align=&quot;left&quot;&gt;Title 1&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Title 2&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Title 3&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 1&lt;/td&gt;&lt;td&gt;Value 2&lt;/td&gt;&lt;td&gt;Value 3&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 4&lt;/td&gt;&lt;td&gt;Value 5&lt;/td&gt;&lt;td&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 7&lt;/td&gt;&lt;td&gt;Value 8&lt;/td&gt;&lt;td&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 10&lt;/td&gt;&lt;td&gt;Value 11&lt;/td&gt;&lt;td&gt;Value 12&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;fontSize=14;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
-          <mxGeometry x="20" y="60" width="120" height="130" as="geometry" />
+        <mxCell id="FY8OjrovpsQSVtT9R5It-369" value="FRONT" style="swimlane;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
+          <mxGeometry x="719" y="310" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-364" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="2150" width="120" height="60" as="geometry" />
+        <mxCell id="FY8OjrovpsQSVtT9R5It-370" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr style=&quot;background-color:#A7C942;color:#ffffff;border:1px solid #98bf21;&quot;&gt;&lt;th align=&quot;left&quot;&gt;Title 1&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Title 2&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Title 3&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 1&lt;/td&gt;&lt;td&gt;Value 2&lt;/td&gt;&lt;td&gt;Value 3&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 4&lt;/td&gt;&lt;td&gt;Value 5&lt;/td&gt;&lt;td&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 7&lt;/td&gt;&lt;td&gt;Value 8&lt;/td&gt;&lt;td&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 10&lt;/td&gt;&lt;td&gt;Value 11&lt;/td&gt;&lt;td&gt;Value 12&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;fontSize=14;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-369">
+          <mxGeometry x="30" y="30" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-365" value="Данные добавляем в State" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="435" y="2150" width="120" height="60" as="geometry" />
+        <mxCell id="FY8OjrovpsQSVtT9R5It-384" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tr style=&quot;background-color:#A7C942;color:#ffffff;border:1px solid #98bf21;&quot;&gt;&lt;th align=&quot;left&quot;&gt;Title 1&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Title 2&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;Title 3&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 1&lt;/td&gt;&lt;td&gt;Value 2&lt;/td&gt;&lt;td&gt;Value 3&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 4&lt;/td&gt;&lt;td&gt;Value 5&lt;/td&gt;&lt;td&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 7&lt;/td&gt;&lt;td&gt;Value 8&lt;/td&gt;&lt;td&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color:#EAF2D3;border:1px solid #98bf21;&quot;&gt;&lt;td&gt;Value 10&lt;/td&gt;&lt;td&gt;Value 11&lt;/td&gt;&lt;td&gt;Value 12&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;fontSize=14;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
+          <mxGeometry x="55" y="40" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-366" value="Получаем данные" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="2150" width="120" height="60" as="geometry" />
+        <mxCell id="FY8OjrovpsQSVtT9R5It-385" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
+          <mxGeometry x="100" y="180" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-365" value="Данные добавляем в State" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="2480" width="177.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-366" value="Получаем данные" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2160" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-367" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=15;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="280" as="sourcePoint" />
             <mxPoint x="270" y="305" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-373" value="Action(Функция для передачи данных из базы в визуал)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2290" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-376" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-377" value="Store(Локальная база состояний и данных)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="2290" width="177.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-378" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="2320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-379" value="Изменение данных" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2290" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-380" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;fontSize=15;strokeWidth=2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="2322.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-383" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;FLUX С&lt;font color=&quot;#202124&quot;&gt;&lt;span style=&quot;font-size: 28px&quot;&gt;ycle&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1890" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
