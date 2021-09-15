@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T13:41:14.662Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="UJIKmBaRunktWfbUZq-Z" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:47:52.918Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Fo-Mjrj4bkuYX6aAa56Z" version="15.2.7" type="github">
   <diagram id="ZIN-xYuzpI-XV8i7ytl3" name="Page-1">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -501,7 +501,7 @@
           <mxGeometry x="690" y="1140" width="440" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-361" value="FRONT" style="swimlane;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="230" y="1930" width="980" height="630" as="geometry" />
+          <mxGeometry x="240" y="1920" width="980" height="630" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-369" value="FRONT" style="swimlane;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
           <mxGeometry x="410" y="440" width="190" height="160" as="geometry" />
@@ -512,7 +512,7 @@
         <mxCell id="FY8OjrovpsQSVtT9R5It-365" value="Web&lt;br&gt;API" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
           <mxGeometry x="416.25" y="40" width="177.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-366" value="Получаем данные" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
+        <mxCell id="FY8OjrovpsQSVtT9R5It-366" value="Получаем данные(Get Запрос) используя библиотеку Redux saga и axios" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
           <mxGeometry x="130" y="140" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-2" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="FY8OjrovpsQSVtT9R5It-361">
@@ -525,24 +525,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-377" value="Store(Локальная база состояний и данных)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
-          <mxGeometry x="130" y="445" width="190" height="90" as="geometry" />
+          <mxGeometry x="120" y="460" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-4" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
           <mxGeometry x="210" y="230" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-373" value="Action_Creator(Функция для передачи данных из базы в визуал)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
+        <mxCell id="FY8OjrovpsQSVtT9R5It-373" value="Action Creator&amp;gt;&lt;br&gt;Action(Объект для передачи данных из базы в визуал)&amp;gt;Dispatch redux" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
           <mxGeometry x="130" y="285" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="FY8OjrovpsQSVtT9R5It-361" source="UDcMvVBgL4GuINtxcGWQ-4" target="UDcMvVBgL4GuINtxcGWQ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-6" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
-          <mxGeometry x="210" y="380" width="30" height="50" as="geometry" />
+          <mxGeometry x="210" y="390" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-8" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
           <mxGeometry x="320" y="480" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UDcMvVBgL4GuINtxcGWQ-21" value="Получаем данные" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
+        <mxCell id="UDcMvVBgL4GuINtxcGWQ-21" value="Формируем post-запрос&lt;br&gt;используя библиотеку&lt;br&gt;Redux saga&amp;nbsp; и axios" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
           <mxGeometry x="700" y="140" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-22" value="" style="shape=flexArrow;endArrow=classic;html=1;width=8;endSize=8.67;endWidth=15;" edge="1" parent="FY8OjrovpsQSVtT9R5It-361">
@@ -552,14 +552,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UDcMvVBgL4GuINtxcGWQ-23" value="Получаем данные" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
-          <mxGeometry x="700" y="285" width="190" height="80" as="geometry" />
+        <mxCell id="UDcMvVBgL4GuINtxcGWQ-23" value="Формируем изменения в state Action Creator &amp;gt;&lt;br&gt;Action(Объект для передачи данных из базы в визуал)&amp;gt;Dispatch redux" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
+          <mxGeometry x="700" y="290" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="UDcMvVBgL4GuINtxcGWQ-24" value="Получаем данные" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
-          <mxGeometry x="700" y="445" width="190" height="80" as="geometry" />
+        <mxCell id="UDcMvVBgL4GuINtxcGWQ-24" value="Изменение данных пользователем &lt;br&gt;(отправка формы)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontSize=15;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
+          <mxGeometry x="700" y="470" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-25" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
-          <mxGeometry x="780" y="375" width="30" height="60" as="geometry" />
+          <mxGeometry x="780" y="400" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-26" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
           <mxGeometry x="780" y="230" width="30" height="50" as="geometry" />
@@ -567,14 +567,14 @@
         <mxCell id="UDcMvVBgL4GuINtxcGWQ-27" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="FY8OjrovpsQSVtT9R5It-361">
           <mxGeometry x="610" y="480" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FY8OjrovpsQSVtT9R5It-383" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;FLUX С&lt;font color=&quot;#202124&quot;&gt;&lt;span style=&quot;font-size: 28px&quot;&gt;ycle&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;shadow=0;sketch=0;" parent="FY8OjrovpsQSVtT9R5It-361" vertex="1">
+          <mxGeometry x="385" y="270" width="210" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-367" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=15;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="280" as="sourcePoint" />
             <mxPoint x="270" y="305" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-383" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;FLUX С&lt;font color=&quot;#202124&quot;&gt;&lt;span style=&quot;font-size: 28px&quot;&gt;ycle&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;shadow=0;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="645" y="1890" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSCU4fgvM0K5-vYo5xHX-1" value="Сервис в разработке" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="695" y="2680" width="130" height="26" as="geometry" />
