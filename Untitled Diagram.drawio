@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T13:25:36.397Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Zsa9cP2401tbVymwIZcg" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:29:19.338Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="CagaNL3HnjHV5_FrB4VX" version="15.2.7" type="github">
   <diagram id="ZIN-xYuzpI-XV8i7ytl3" name="Page-1">
     <mxGraphModel dx="1672" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
           <mxGeometry x="1117" width="71" height="43" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-41" value="Витрина данных" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="600" y="250" width="100" height="40" as="geometry" />
+          <mxGeometry x="960" y="260" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-128" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="310" y="610" width="1260" height="120" as="geometry" />
@@ -275,7 +275,7 @@
           <mxGeometry x="1160" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-180" value="Справочник фильтров" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="610" y="550" width="100" height="40" as="geometry" />
+          <mxGeometry x="810" y="550" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-250" value="ORACLE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="200" y="2740" width="60" height="80" as="geometry" />
@@ -305,7 +305,7 @@
           <mxGeometry x="745" y="3170" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-261" value="Аналитическая витрина(Агрегация)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="190" y="240" width="100" height="40" as="geometry" />
+          <mxGeometry x="660" y="20" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-262" value="CoreDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="540" y="90" width="70" height="100" as="geometry" />
@@ -613,8 +613,14 @@
         </mxCell>
         <mxCell id="OSCU4fgvM0K5-vYo5xHX-32" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="185" y="440" as="sourcePoint" />
-            <mxPoint x="270" y="410" as="targetPoint" />
+            <mxPoint x="167.5" y="440" as="sourcePoint" />
+            <mxPoint x="252.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSCU4fgvM0K5-vYo5xHX-34" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
