@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-10T14:57:57.387Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="mpdY91Aw_k8EPLqtW6YL" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-10T14:59:26.691Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Gf2BkQMwNT53IXSRWkYy" version="15.5.0" type="github">
   <diagram id="ZIN-xYuzpI-XV8i7ytl3" name="Page-1">
     <mxGraphModel dx="2370" dy="1470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -413,10 +413,10 @@
         <mxCell id="FY8OjrovpsQSVtT9R5It-304" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="205" y="1170" width="320" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-306" value="Проверка вернувшихся данных&lt;br&gt;(Ограничение на количество строк в массиве)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="FY8OjrovpsQSVtT9R5It-306" value="Общий свод правил и ограничений при вызове данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="650" y="1180" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="FY8OjrovpsQSVtT9R5It-307" value="Обращение в БД" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="FY8OjrovpsQSVtT9R5It-307" value="Обращение в БД вызывается после полного сервисного прохождения" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1185" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FY8OjrovpsQSVtT9R5It-321" value="&lt;span style=&quot;font-size: 14px&quot;&gt;GET&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;/api/v2/DataEndpoint&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;/api/v2/FilterEndpoint&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=16;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
